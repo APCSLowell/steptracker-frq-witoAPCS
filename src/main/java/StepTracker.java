@@ -12,7 +12,7 @@ public class StepTracker
   actDays = 0;
  }
 
- public void DailySteps(int steps)
+ public void addDailySteps(int steps)
  {
   totalSteps += steps;
    totalDays++;
